@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MonitorDetailController">
+            <connections>
+                <outlet property="textBatchName" destination="wtu-I7-nc7" id="Kz2-hB-yOF"/>
+                <outlet property="textCurrentTime" destination="Qwo-KI-4bF" id="yVd-PN-mSk"/>
+                <outlet property="textDMWR" destination="LBc-xf-3wV" id="mAY-v9-vAN"/>
+                <outlet property="textDirection" destination="fOk-94-gid" id="C9s-sQ-e9a"/>
+                <outlet property="textLong" destination="5h1-gm-G9T" id="iSY-XA-egw"/>
+                <outlet property="textMemo" destination="iAL-UK-ZCg" id="vuo-5Q-Fb4"/>
+                <outlet property="textPointName" destination="nwY-qi-cEY" id="aa3-b2-llF"/>
+                <outlet property="textQD" destination="JeT-lm-q6f" id="YnP-lO-OvJ"/>
+                <outlet property="textQRJ" destination="JsY-i5-0BN" id="wQj-wj-6zP"/>
+                <outlet property="textStart" destination="Kz2-4D-4G2" id="SwA-E5-sis"/>
+                <outlet property="textYJLL" destination="0R6-1d-ATe" id="zjY-ZW-zN7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="方向" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fOk-94-gid">
+                    <frame key="frameInset" minX="16" minY="151" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="距离" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5h1-gm-G9T">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="γ剂量率" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0R6-1d-ATe">
+                    <frame key="frameInset" minX="16" minY="227" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="气碘" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JeT-lm-q6f">
+                    <frame key="frameInset" minX="16" minY="301" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="地面污染" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LBc-xf-3wV">
+                    <frame key="frameInset" minX="16" minY="265" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="气碘胶β" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JsY-i5-0BN">
+                    <frame key="frameInset" minX="16" minY="339" width="343" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="处理批次" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wtu-I7-nc7">
+                    <frame key="frameInset" minX="16" minY="380" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="selectBatchName:" destination="-1" eventType="touchDown" id="UBu-nS-HnC"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="备注" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iAL-UK-ZCg">
+                    <frame key="frameInset" minX="16" minY="456" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="选择点位" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwY-qi-cEY">
+                    <frame key="frameInset" minX="16" minY="111" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="positionChanged:" destination="-1" eventType="valueChanged" id="zOl-0z-Iq4"/>
+                        <action selector="selectEndPosition:" destination="-1" eventType="touchDown" id="upJ-dZ-QY0"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="发生时间" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qwo-KI-4bF">
+                    <frame key="frameInset" minX="16" minY="418" width="343" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="selectCurrentTime:" destination="-1" eventType="touchDown" id="Ic5-Ph-hn5"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="选择相对点位" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kz2-4D-4G2">
+                    <frame key="frameInset" minX="16" minY="69" width="343" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="positionChanged:" destination="-1" eventType="valueChanged" id="FFD-76-pM8"/>
+                        <action selector="selectStartPosition:" destination="-1" eventType="touchDown" id="5x4-PJ-NB4"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czk-VH-gbG">
+                    <frame key="frameInset" minX="159" minY="501" width="56" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <state key="normal" title="保存"/>
+                    <connections>
+                        <action selector="saveData:" destination="-1" eventType="touchUpInside" id="4cF-9h-7sw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JeT-lm-q6f" secondAttribute="trailing" constant="16" id="0n9-gw-wG0"/>
+                <constraint firstAttribute="trailing" secondItem="JsY-i5-0BN" secondAttribute="trailing" constant="16" id="2kR-0j-ciX"/>
+                <constraint firstItem="iAL-UK-ZCg" firstAttribute="top" secondItem="Qwo-KI-4bF" secondAttribute="bottom" constant="10" id="2sR-bq-R7O"/>
+                <constraint firstAttribute="trailing" secondItem="Kz2-4D-4G2" secondAttribute="trailing" constant="16" id="2wr-ad-l1i"/>
+                <constraint firstItem="Kz2-4D-4G2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="69" id="38F-HA-YlL"/>
+                <constraint firstItem="JsY-i5-0BN" firstAttribute="top" secondItem="JeT-lm-q6f" secondAttribute="bottom" constant="10" id="6TE-fa-AhD"/>
+                <constraint firstItem="LBc-xf-3wV" firstAttribute="top" secondItem="0R6-1d-ATe" secondAttribute="bottom" constant="10" id="8LX-dv-1FE"/>
+                <constraint firstItem="wtu-I7-nc7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="8ps-aI-gWM"/>
+                <constraint firstAttribute="trailing" secondItem="nwY-qi-cEY" secondAttribute="trailing" constant="16" id="9F2-kS-9NL"/>
+                <constraint firstItem="nwY-qi-cEY" firstAttribute="top" secondItem="Kz2-4D-4G2" secondAttribute="bottom" constant="10" id="Gqx-rO-vaf"/>
+                <constraint firstItem="JsY-i5-0BN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Jex-MX-Enl"/>
+                <constraint firstItem="5h1-gm-G9T" firstAttribute="top" secondItem="fOk-94-gid" secondAttribute="bottom" constant="10" id="Kyt-fL-Cbq"/>
+                <constraint firstItem="nwY-qi-cEY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Pya-x1-0pA"/>
+                <constraint firstItem="LBc-xf-3wV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Tc7-qD-cME"/>
+                <constraint firstItem="iAL-UK-ZCg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="U33-n5-Pz2"/>
+                <constraint firstAttribute="trailing" secondItem="wtu-I7-nc7" secondAttribute="trailing" constant="16" id="aFl-SZ-Xwk"/>
+                <constraint firstAttribute="trailing" secondItem="fOk-94-gid" secondAttribute="trailing" constant="16" id="amI-Vn-aPI"/>
+                <constraint firstItem="0R6-1d-ATe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="bQZ-qD-8zM"/>
+                <constraint firstItem="JeT-lm-q6f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="bqa-Vv-J2f"/>
+                <constraint firstItem="Qwo-KI-4bF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="djI-uo-1qr"/>
+                <constraint firstItem="Qwo-KI-4bF" firstAttribute="top" secondItem="wtu-I7-nc7" secondAttribute="bottom" constant="10" id="gGR-98-LUd"/>
+                <constraint firstItem="wtu-I7-nc7" firstAttribute="top" secondItem="JsY-i5-0BN" secondAttribute="bottom" constant="10" id="gHP-A4-6zk"/>
+                <constraint firstItem="fOk-94-gid" firstAttribute="top" secondItem="nwY-qi-cEY" secondAttribute="bottom" constant="10" id="iAi-46-qgV"/>
+                <constraint firstAttribute="trailing" secondItem="0R6-1d-ATe" secondAttribute="trailing" constant="16" id="j0C-n7-V6q"/>
+                <constraint firstAttribute="trailing" secondItem="iAL-UK-ZCg" secondAttribute="trailing" constant="16" id="lZS-N5-NVP"/>
+                <constraint firstItem="5h1-gm-G9T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="lnZ-Zq-y6O"/>
+                <constraint firstItem="Kz2-4D-4G2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="lpg-pM-gkQ"/>
+                <constraint firstItem="fOk-94-gid" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="p0B-wa-Trf"/>
+                <constraint firstAttribute="trailing" secondItem="Qwo-KI-4bF" secondAttribute="trailing" constant="16" id="q1h-6m-k2p"/>
+                <constraint firstItem="JeT-lm-q6f" firstAttribute="top" secondItem="LBc-xf-3wV" secondAttribute="bottom" constant="10" id="s9G-lc-OsY"/>
+                <constraint firstItem="0R6-1d-ATe" firstAttribute="top" secondItem="5h1-gm-G9T" secondAttribute="bottom" constant="10" id="wpA-Yh-e7H"/>
+                <constraint firstAttribute="trailing" secondItem="LBc-xf-3wV" secondAttribute="trailing" constant="16" id="zHD-es-LZT"/>
+                <constraint firstAttribute="trailing" secondItem="5h1-gm-G9T" secondAttribute="trailing" constant="16" id="zUO-Ip-dKw"/>
+            </constraints>
+            <connections>
+                <action selector="hideKeybord:" destination="-1" eventType="touchDown" id="ZTS-mb-ZA5"/>
+            </connections>
+            <point key="canvasLocation" x="385.5" y="239.5"/>
+        </view>
+    </objects>
+</document>

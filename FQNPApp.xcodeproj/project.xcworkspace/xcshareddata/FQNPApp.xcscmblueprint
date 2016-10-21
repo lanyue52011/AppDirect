@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9c576b02-8477-477f-a88b-4a62d7cf70a5++6490",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9c576b02-8477-477f-a88b-4a62d7cf70a5++6490" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9c576b02-8477-477f-a88b-4a62d7cf70a5++6490" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1416B15-2C32-4D5B-BAF1-7C30D99015D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9c576b02-8477-477f-a88b-4a62d7cf70a5++6490" : "AppDirect\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FQNPApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FQNPApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/200.200.0.40\/ssl\/dev",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9c576b02-8477-477f-a88b-4a62d7cf70a5++6490"
+    }
+  ]
+}
